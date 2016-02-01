@@ -1,2 +1,4 @@
-# wiggleport.github.io
-Static content for the wiggleport.org project site
+# Wiggleport project site
+
+This repository is the static site that runs [wiggleport.org
+](http://wiggleport.org).
