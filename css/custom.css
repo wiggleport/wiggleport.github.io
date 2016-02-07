@@ -15,14 +15,8 @@ div.infoblurb {
 	background-attachment: fixed;
 }
 
-.v-padded {
-	/* vertical */
+.padded {
 	margin: 3rem 0;
-}
-
-.rv-padded {
-	/* right and vertical */
-	margin: 3rem 3rem 3rem 0;
 }
 
 .footer {
@@ -32,4 +26,8 @@ div.infoblurb {
 
 #modular-io {
 	padding: 2rem 0;
+}
+
+#wiggle-spine {
+	padding: 3rem 0;
 }
