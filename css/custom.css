@@ -1,0 +1,10 @@
+div.heading img {
+	max-width: 100%;
+	padding: 3em 0;
+}
+
+div.heading {
+	background: url(../images/signals.png);
+	background-size: auto 100%;
+	background-repeat: repeat-x;
+}
