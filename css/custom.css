@@ -1,10 +1,35 @@
 div.heading img {
 	max-width: 100%;
-	padding: 3em 0;
+	padding: 4em 0;
 }
 
 div.heading {
 	background: url(../images/signals.png);
 	background-size: auto 100%;
 	background-repeat: repeat-x;
+}
+
+div.infoblurb {
+	background: url(../images/art-electronics.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.v-padded {
+	/* vertical */
+	margin: 3rem 0;
+}
+
+.rv-padded {
+	/* right and vertical */
+	margin: 3rem 3rem 3rem 0;
+}
+
+.footer {
+	color: #888;
+	font-size: 75%;
+}
+
+#modular-io {
+	padding: 2rem 0;
 }
