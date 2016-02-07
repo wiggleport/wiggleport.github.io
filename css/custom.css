@@ -1,16 +1,22 @@
-div.heading img {
+.heading img {
 	max-width: 100%;
 	padding: 4em 0;
 }
 
-div.heading {
+.heading {
 	background: url(../images/signals.png);
 	background-size: auto 100%;
 	background-repeat: repeat-x;
 }
 
-div.infoblurb {
-	background: url(../images/art-electronics.jpeg);
+.infoblurb-left {
+	background-image: linear-gradient(to right, rgba(255,255,255,50), rgba(255,255,255,0)), url(../images/art-electronics.jpeg);
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+.infoblurb-right {
+	background-image: linear-gradient(to left, rgba(255,255,255,50), rgba(255,255,255,0)), url(../images/art-electronics.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 }
