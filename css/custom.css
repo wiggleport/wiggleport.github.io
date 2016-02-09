@@ -35,8 +35,14 @@
 }
 
 #modular-io img {
-	padding: 2rem 0;
+	margin: 2rem 0 0 0;
 	max-width: 80%;
+}
+
+@media (min-width: 550px) {
+	#modular-io img {
+		margin: 2rem 0;
+	}
 }
 
 #wiggle-spine {
