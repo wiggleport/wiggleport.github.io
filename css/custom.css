@@ -52,3 +52,13 @@
 	width: 100%;
 	margin: 0 0 1em 0;
 }
+
+@media (min-width: 550px) {
+	/*
+	 * The widget's default configuration is short, for mobile.
+	 * On tablet and larger, make it larger to roughly match the other column.
+	 */
+	#twitter-widget-0 {
+		height: 50rem !important;
+	}
+}
