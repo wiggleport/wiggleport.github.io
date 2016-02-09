@@ -31,7 +31,12 @@
 }
 
 #modular-io {
+	text-align: center;
+}
+
+#modular-io img {
 	padding: 2rem 0;
+	max-width: 80%;
 }
 
 #wiggle-spine {
